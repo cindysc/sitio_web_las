@@ -93,11 +93,11 @@ p{font-size: 15px; }
 /*------fin Navbar-------*/
 
 /*------inicio footer-------*/
-footer{ background-color: #e7ecf0; padding: 30px 0 0 0; margin-top: 40px; }
-footer .cont_footer { text-align: center; position: relative; min-height: 150px;}
-footer .cont_footer .redes{ position: absolute; right: 0; left: 0; bottom: 19px; }
-footer .cont_footer .redes .ic_rrrss{ list-style: none; display: inline-block;}
-footer .cont_footer .redes .ic_rrrss img{ width: 28px; height: 28px;}
+footer{ background-color: #e7ecf0; padding: 30px 0 0 0; margin-top: 40px; bottom: 0; }
+footer .cont_footer { text-align: center; position: relative; min-height: 150px; width: 200px; margin: 0 auto;}
+footer .cont_footer .redes{ position: absolute;  right: -61px; left: 0; bottom: 19px; }
+footer .cont_footer .redes .ic_rrrss{ list-style: none; display: inline-block; padding: 0 2px;}
+footer .cont_footer .redes .ic_rrrss img{ width: 30px; height: 30px;}
 footer .cont_footer .logo_footer{ max-width: 200px;}
 /*------fin footer-------*/
 
@@ -206,8 +206,11 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev { right: 5rem; background-image: url('../img/right.svg'); background-size: 50%; background-color: rgba(255,255,255,0.6); border-radius: 50%; height: 35px; width: 35px; }
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{ left: 5rem; background-image: url('../img/left.svg');  background-size: 50%; background-color: rgba(255,255,255,0.6); border-radius: 50%; height: 35px; width: 35px; }
 .swiper-slide { font-size: 18px; color:#4d4d4f; -webkit-box-sizing: border-box;  box-sizing: border-box; }
-.wrapper{ height: 300px; overflow: hidden; width: auto; margin-bottom: 20px; }
+.swiper-wrapper{ height: auto; width: auto; margin-bottom: 20px; }
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{ opacity: 0.6 !important; }
+.cont_galeria .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{ margin: 0 auto;}
+.cont_galeria .swiper-wrapper .img_wrap .img-responsive-vert {height: 100%; width: auto; margin: 0 auto; }
+.cont_galeria .swiper-wrapper .swiper-slide{ text-align: center;}
 /*------fin galería slider página 5.4-------*/
 
 /*------inicio contacto página 6-------*/
@@ -222,13 +225,14 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
 .cont_contacto .formulario .btn-enviar { left: 92px; position: absolute; color: #231f20; letter-spacing: 1.2px; font-family: 'latolight', sans-serif; font-size: 18px;  display: inline-block; padding: 6px 12px; margin-bottom: 0; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; background-color: #ffffff; border: 1px solid transparent; }
 /*------fin contacto página 6-------*/
 
-@media (min-width: 1250px){
-    .container { width: 1250px !important;}
-}
 @media (min-width: 1200px){
     .container { width: 1200px !important;}
     .swiper-button-next, .swiper-container-rtl .swiper-button-prev { right: 10rem; }
     .swiper-button-prev, .swiper-container-rtl .swiper-button-next{ left: 10rem;}
+}
+
+@media (min-width: 1260px){
+    .container { width: 1260px !important;}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -285,6 +289,9 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
     .cont_aldea .links_laAldea { top: calc(87% - 380px);}
     .cont_aldea .links_laAldea .cuadro_link{ margin-bottom: 40px;}
 
+    /*galeria*/
+    .cont_galeria .swiper-wrapper .img_wrap .img-responsive-vert { max-height: 500px;}
+
     /*contacto*/
     .cont_contacto .formulario .btn-enviar { left: 88px;}
     .cont_contacto .formulario .form-nombre, .cont_contacto .formulario .form-email { width: 86%;}
@@ -334,7 +341,8 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
     .cont_nosotros .content_txt_l .titulo_sec{ text-align: center; font-size: 20px !important;}
 
     /*------galería slider página 5.4-------*/
-    .wrapper { height: 100%; margin-bottom: 20px; margin-top: 20px; overflow: hidden; }
+    .swiper-wrapper { margin-bottom: 20px; margin-top: 20px; }
+    .cont_galeria .swiper-wrapper .img_wrap .img-responsive-vert { max-height: 400px;}
     /*------fin galería slider página 5.4-------*/
 
     /*territorio*/
@@ -415,6 +423,9 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
     .cont_contacto .formulario .btn-enviar { left: 68px;}
     .cont_contacto .formulario .form-nombre, .cont_contacto .formulario .form-email { width: 78%;}
     .cont_contacto .formulario .form-text { width: 78%;}
+
+    /*galeria*/
+    .cont_galeria .swiper-wrapper .img_wrap .img-responsive-vert { max-height: 300px;}
 }
 
 @media only screen and (max-width: 400px) {
@@ -422,5 +433,6 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
     .cont_contacto .formulario .btn-enviar { left: 58px;}
     .cont_contacto .formulario .form-nombre, .cont_contacto .formulario .form-email { width: 75%;}
     .cont_contacto .formulario .form-text { width: 75%;}
+
 
 }

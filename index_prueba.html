@@ -13,7 +13,8 @@
     <!-- Main Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="intro">
+<body>
+    <div id="main" data-transition="moveright">
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container">
@@ -24,60 +25,53 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/img/logo_negro.svg" alt="La aldea de los sobrevivientes"></a>
+                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/img/logo_h.png" alt="La aldea de los sobrevivientes"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right navbar__navigation">
-                    <li class="link_1"><a href="nosotros.html">Nosotros</a></li>
-                    <li class="link_2"><a href="territorio.html">Territorio</a></li>
-                    <li class="link_3"><a href="aldea.html">La Aldea</a></li>
+                    <li class="link_1"><a href="index.html" data-target="-1">Nosotros</a></li>
+                    <li class="link_2"><a href="index_prueba.html" data-target="0">Territorio</a></li>
+                    <li class="link_3"><a href="aldea.html" data-target="1">La Aldea</a></li>
                     <li class="link_4"><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Fin Navbar-->
-    <!-- Inicio quienes somos-->
-    <div class="cont_intro">
-        <div class="container">
-        	<div class="img-wrap">
-        		<img src="assets/img/intro_1.jpg" alt="" class="img-responsive">
-        	</div>
-            <div class="cont_txt">
-            	<div class="row">
-            		<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-            			<h1 class="titulo_sec">¿Quiénes somos?</h1>
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-            			<p class="bajada">Somos Los Sobrevivientes, un grupo de personas interesadas en generar conocimientos, prácticas y sistemas sustentables, con el propósito de aportar a un desarrollo territorial pertinente al lugar y respetuoso de su riqueza natural y cultural.
-            				Para esto, estamos creando La Aldea de Los Sobrevivientes, un Lodge de desarrollo permanente en lo radicalmente sustentable, aplicado en las áreas de turismo, hotelería, experiencia outdoor, arquitectura, construcción, agua, energía y alimentación. La Aldea es también un centro de bienestar físico y espiritual, en donde desarrollamos disciplinas como yoga, meditación y terapias naturales.
-            			</p>
-            		</div>
-            	</div>
-            </div>
+
+    <!-- inicio ingreso-->
+    <div class="cont_ingreso">
+        <div class="btn_ingreso sceneElement" data-viewport="0">
+            <a href="#">ENTRAR1</a>
+        </div>
+        <div class="logo_central">
+            <img class="logo" src="assets/img/logo_h.png" alt="La aldea de los sobrevivientes">
         </div>
     </div>
-    <!-- Fin quienes somos-->
+    <!-- Fin ingreso-->
 
 
     <!--Inicio footer -->
     <footer>
         <div class="cont_footer">
-            <img src="assets/img/logo_negro.svg" alt="" class="logo_footer">
+            <img src="assets/img/logo_f.png" alt="" class="logo_footer">
             <ul class="redes">
-                <li class="ic_rrrss"><a href="#"><img src="assets/img/facebook.svg" alt=""></a></li>
-                <li class="ic_rrrss"><a href="#"><img src="assets/img/instagram.svg" alt=""></a></li>
-                <li class="ic_rrrss"><a href="#"><img src="assets/img/twitter.svg" alt=""></a></li>
+                <li class="ic_rrrss"><a href="#"><img src="assets/img/facebook.png" alt=""></a></li>
+                <li class="ic_rrrss"><a href="#"><img src="assets/img/instagram.png" alt=""></a></li>
+                <li class="ic_rrrss"><a href="#"><img src="assets/img/twitter.png" alt=""></a></li>
             </ul>
         </div>
     </footer>
     <!--Fin footer -->
+    </div>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Swiper slider -->
     <script src="assets/js/swiper.min.js"></script>
+
+    <script src="assets/js/jquery.smoothState.min.js"></script>
     <!-- mi js -->
     <script src="assets/js/script.js"></script>
 </body>
