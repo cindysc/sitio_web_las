@@ -199,6 +199,7 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
 .cont_programa .cont_subtit{  margin-bottom: 20px;}
 .cont_programa .subtit{text-align: center;  font-family: 'aleoregular', serif; color:#0C496C;}
 .cont_programa .subtit_2{ margin-top: 100px; }
+.cont_programa .cont_img {max-width: 1500px; margin: 0 auto;}
 /*------fin programa página 5.3-------*/
 
 /*------galería slider página 5.4-------*/
