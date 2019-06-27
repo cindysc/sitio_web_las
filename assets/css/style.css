@@ -106,10 +106,10 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
 .cont_ingreso .btn_ingreso{ text-align: right; margin-top: 70px;}
 .cont_ingreso .logo_central { position: absolute; right: 0; left: 0;  bottom: 7rem; text-align: center;}
 .cont_ingreso .logo_central .logo{  max-width: 590px;}
-.cont_ingreso .button { color: #ffffff; font-family: 'latobold', sans-serif; text-decoration: none; letter-spacing: 5px; font-size: 20px; text-align: center; padding: 20px; width: 200px; transition: all 0.5s; margin: 5px;}
-.cont_ingreso .button span { display: inline-block; position: relative; transition: 0.5s;}
+.cont_ingreso .button { color: #ffffff; font-family: 'latobold', sans-serif; text-decoration: none; letter-spacing: 5px; font-size: 20px; text-align: center; padding: 20px; width: 200px; /*transition: all 0.5s;*/ margin: 5px;}
+.cont_ingreso .button span { display: inline-block; position: relative; /*transition: 0.5s;*/}
 .cont_ingreso .button span:after { content: '\00bb'; position: absolute; opacity: 0; top: -4px; right: -20px; transition: 0.5s; font-size: 25px;}
-.cont_ingreso .button:hover span { padding-right: 25px; letter-spacing: 6px;}
+.cont_ingreso .button:hover span { padding-right: 25px; letter-spacing: 6px; transition: 0.5s ease-out;}
 .cont_ingreso .button:hover span:after { opacity: 1; right: 0; }
 /*------fin ingreso página 1-------*/
 
