@@ -102,9 +102,9 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
 /*------fin footer-------*/
 
 /*------inicio ingreso página 1-------*/
-.cont_ingreso{ position: relative; height: 100vh; background-image: url('../../assets/img/fondo_ingreso.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;  }
+.cont_ingreso{ position: relative; height: 100vh; background-image: url('../../assets/img/fondo_ingreso.jpg'); background-size: cover; background-position: 50% 68%; background-repeat: no-repeat;  }
 .cont_ingreso .btn_ingreso{ text-align: right; margin-top: 70px;}
-.cont_ingreso .logo_central { position: absolute; right: 0; left: 0;  bottom: 7rem; text-align: center;}
+.cont_ingreso .logo_central { position: absolute; right: 0; left: 0;  bottom: 17rem; text-align: center;}
 .cont_ingreso .logo_central .logo{  max-width: 590px;}
 .cont_ingreso .button { color: #ffffff; font-family: 'latobold', sans-serif; text-decoration: none; letter-spacing: 5px; font-size: 20px; text-align: center; padding: 20px; width: 200px; /*transition: all 0.5s;*/ margin: 5px;}
 .cont_ingreso .button span { display: inline-block; position: relative; /*transition: 0.5s;*/}
