@@ -217,7 +217,7 @@ footer .cont_footer .logo_footer{ max-width: 200px;}
 /*..........descripción + 206. max-height: 740px;........*/
 .cont_galeria .swiper-wrapper .swiper-slide .img_wrap{ max-height: 650px; overflow: hidden;}
 .cont_galeria .swiper-wrapper .swiper-slide .cont_txt_img{ padding: 20px 0 10px 0;}
-.cont_galeria .swiper-wrapper .swiper-slide .cont_txt_img p{ font-size: 16px; color: #333333;}
+.cont_galeria .swiper-wrapper .swiper-slide .cont_txt_img p{ font-size: 16px; color: #333333; text-align: center;}
 /*------fin galería slider página 5.4-------*/
 
 /*------inicio contacto página 6-------*/
